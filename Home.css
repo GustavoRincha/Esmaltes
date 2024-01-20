@@ -1,0 +1,26 @@
+body{
+
+}
+
+.list_itens{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 15em;
+    margin-left: 1em;
+}
+
+img{
+    width: 5em;
+    margin-left: 4.8em;
+
+}
+
+li{
+    list-style-type: none;
+
+}
+
+ul{
+    display: flex;
+    
+}
