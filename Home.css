@@ -1,12 +1,30 @@
 body{
-
+    background-color: #FAFAFA(109, 107, 107);
 }
 
+
+
 .list_itens{
-    border: 1px solid black;
+  background-color: #FFFFFF;
+    border: 1px solid white;
     border-radius: 10px;
     width: 15em;
     margin-left: 1em;
+    box-shadow:
+  1.5px 1.7px 3.8px rgba(0, 0, 0, 0.015),
+  2.6px 3px 11.2px rgba(0, 0, 0, 0.023),
+  3.5px 4px 24.8px rgba(0, 0, 0, 0.035),
+  5px 5.7px 50.3px rgba(0, 0, 0, 0.058),
+  15px 17px 86px rgba(0, 0, 0, 0.12)
+;
+}
+.list_itens__content{
+    margin-left: .75em;
+}
+
+.list_itens__name{
+  margin-top: 2em;
+  margin-bottom: 1.2em;
 }
 
 img{
@@ -17,10 +35,91 @@ img{
 
 li{
     list-style-type: none;
-
+    margin: 1em;
 }
 
 ul{
     display: flex;
-    
+    justify-content: center;
+    margin: 0;
+}
+
+.img_labrador{
+  width: 8em;
+  margin-left: 3.4em;
+}
+
+.img_cafe{
+  width: 4.3em;
+  margin-left: 5em;
+}
+
+.img_jabuticaba{
+  width: 5.74em;
+  margin-left: 4.5em;
+}
+
+.img_beterraba{
+  width: 4.15em;
+}
+
+.img_carmim{
+  margin-top: 1em;
+}
+
+.img_gabriela{
+  margin-top: .35em;
+}
+
+.img_beijo{
+  margin-top: 1em;
+}
+
+.img_irreverente{
+  width: 4.3em;
+}
+
+.img_golpe{
+  width: 4.4em;
+  margin-left: 5em;
+}
+
+.img_gold{
+  width: 5.36em;
+}
+
+.img_amil{
+  width: 4.9em;
+}
+
+.img_recuar{
+  width: 5.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pages{
+  text-align: center;
 }
