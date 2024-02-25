@@ -1,11 +1,28 @@
 body{
     background-color: #FAFAFA(109, 107, 107);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+#divBusca{
+  background-color:#ccc;
+  border:solid 1px;
+  border-radius:15px;
+  width:600px;
+}
+
+#txtBusca{
+
+  background-color:transparent;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
 }
 
 
-
 .list_itens{
-  background-color: #FFFFFF;
+    background-color: #FFFFFF;
     border: 1px solid white;
     border-radius: 10px;
     width: 15em;
@@ -109,13 +126,20 @@ ul{
 
 
 
+a{
+  font-size: 22px;
+  background-color: #FFFFFF;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+}
 
 
 
-
-
-
-
+.pages{
+  
+}
 
 
 
